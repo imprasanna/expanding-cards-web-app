@@ -45,4 +45,5 @@ h4 {
 .panel.active > h4 {
     opacity: 1;
     transition: opacity 0.3s ease-in;
+    text-shadow: 0.4rem 0.4rem 0.4rem black;
 }
