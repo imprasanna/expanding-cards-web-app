@@ -14,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 .panel {
@@ -46,4 +47,22 @@ h4 {
     opacity: 1;
     transition: opacity 0.3s ease-in;
     text-shadow: 0.4rem 0.4rem 0.4rem black;
+}
+
+@media(max-width: 718px) {
+    body {
+        overflow-x: scroll;
+        overflow-y: hidden; 
+    }
+    .container {
+        width: 150vw;
+        height: 100vh;
+    }
+}
+
+@media(max-width: 512px) {
+    .container {
+        width: 180vw;
+        height: 100vh;
+    }
 }
