@@ -62,7 +62,7 @@ h4 {
 
 @media(max-width: 512px) {
     .container {
-        width: 180vw;
+        width: 200vw;
         height: 100vh;
     }
 }
